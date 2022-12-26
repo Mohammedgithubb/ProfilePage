@@ -55,6 +55,10 @@ echo ' <div id="reg-head-fail" class="headrg">Registration Failed! <br> Error: '
 <td><input type="text" id="tb-box" name="address" /></td>
 </tr>
 <tr>
+<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <small>Format: 123-45-678</small><br><br>
+ </tr>
+<tr>
 <td class="t-1"><div align="left" id="tb-name">Username:</div></td>
 <td><input type="text" id="tb-box" name="username" /></td>
 </tr>
