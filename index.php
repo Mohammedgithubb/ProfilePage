@@ -62,6 +62,14 @@ echo ' <div id="reg-head-fail" class="headrg">Registration Failed! <br> Error: '
 <td class="t-1"><div align="left" id="tb-name">Password:</div></td>
 <td><input id="tb-box" type="password" name="password" /></td>
 </tr>
+ <tr>
+<td class="t-1"><div align="left" id="tb-name">Father Name:</div></td>
+<td><input id="tb-box" type="text" name="Father Name" /></td>
+</tr>
+ <tr>
+<td class="t-1"><div align="left" id="tb-name">Mother Name:</div></td>
+<td><input id="tb-box" type="text" name="Mother Name" /></td>
+</tr>
 </table>
 <div id="st"><input name="submit" type="submit" value="Submit" id="st-btn"/></div>
 </form>
